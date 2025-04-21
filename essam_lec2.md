@@ -29,8 +29,9 @@
             - Git & GitHub
 - What is .NET?
     - it is a platform to build Apps
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0acf4f39-19dd-4c16-9584-05c6806ab3fe/d63ba3ef-f7d5-43a4-8a54-7f867b5e4690/image.png)
+        - .Net Framework: last version -> 4.8.1
+        - .Net Core: last verion -> 3.1
+        - .Net: first version -> .NET 5
     
     - what and when was first version of .NET?
         - it was .NET framework 1.0 in 2002.
@@ -55,9 +56,6 @@
     - we need to adjust color theme:
         - tools —> options —> Environment —> color theme
     - we need to create new project:
-        
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0acf4f39-19dd-4c16-9584-05c6806ab3fe/0ddf55ad-fa38-4026-b6cb-3e4494b5ad27/image.png)
-        
         - file —> new —> project
         - from here you can filter which type you need to make your program. We will start with Console App (deal with CMD).
         - Why to choose CMD?
@@ -67,13 +65,7 @@
     - you can put a namespace in another namespace
     - it is better to write a namespace that has all other namespaces and within it write another namespaces if wanted
     - in solution folder, there is solution file and project folder
-        
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0acf4f39-19dd-4c16-9584-05c6806ab3fe/f560f7b4-54a5-4838-b394-38426e683260/image.png)
-        
     - in project folder, there is bin folder, obj folder, project file and class file
-        
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0acf4f39-19dd-4c16-9584-05c6806ab3fe/8d38387a-63f8-43f6-b4f4-c1efda848c71/image.png)
-        
     - Shortcut to build your code:
         - Ctrl + Shift + B
     - how to build and run without debugging:
@@ -81,9 +73,6 @@
     - what is bin folder:
         - Source code you write should be converted to Machine Code (build).
         - after building the code, we will find an exe file in bin folder.
-            
-            ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0acf4f39-19dd-4c16-9584-05c6806ab3fe/9ad5627b-9897-4229-9fe1-e8cab5c9f70c/image.png)
-            
     - How to make the program exe file wait and don’t close the CMD Window after execution immediately?
         - Console.ReadKey(); —> will wait until it reads any key from the keyboard
     - bin vs obj:
@@ -92,9 +81,6 @@
 - csproj file:
     - double click on project name from solution explorer
     - its name is: project_name.csproj
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0acf4f39-19dd-4c16-9584-05c6806ab3fe/69e21b40-ffec-4cb9-89e3-e2f6c39b7a9c/image.png)
-    
 - Visual Studio Code terminal commands you need:
     - requirements needed:
         - .NET SDK
