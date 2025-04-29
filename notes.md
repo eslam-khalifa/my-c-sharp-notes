@@ -56,3 +56,7 @@
 - Accessing constant from a class is in this way: class_name.const_name
 
 - object = instance of a class
+
+- static and const is stored in an area of heap called "high frequency heap"
+
+- (instance vs static) method
