@@ -60,7 +60,7 @@
         - from here you can filter which type you need to make your program. We will start with Console App (deal with CMD).
         - Why to choose CMD?
             - to learn the programming concepts and then learn another tools you need to build something like Web App.
-- Solution vs Project?
+- Solution vs Project (Assembly)?
     - Solution has many projects. each project has namespaces. each namespace has classes.
     - you can put a namespace in another namespace
     - it is better to write a namespace that has all other namespaces and within it write another namespaces if wanted
